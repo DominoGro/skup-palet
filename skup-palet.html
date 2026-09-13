@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- =========================================================
+     EDYTUJ TUTAJ: tytuł i opis widoczne w Google
+     ========================================================= -->
+<title>Skup palet TWOJE MIASTO – EPAL, przemysłowe, CP | Odbiór własnym transportem</title>
+<meta name="description" content="Skupujemy palety drewniane: EPAL/EURO, przemysłowe 1200×1000, CP, półpalety i uszkodzone. Płatność przy odbiorze, faktura lub umowa kupna, KPO w BDO. Odbiór od 50 sztuk w promieniu 100 km.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.twojadomena.pl/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Skup palet TWOJE MIASTO – płacimy przy załadunku">
+<meta property="og:description" content="EPAL, przemysłowe, CP, uszkodzone. Wycena w 30 sekund, odbiór własnym transportem, pełna dokumentacja BDO.">
+<meta property="og:url" content="https://www.twojadomena.pl/">
+<meta property="og:locale" content="pl_PL">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%2323201B'/><g fill='%23E2A012'><rect x='5' y='8' width='22' height='4'/><rect x='5' y='15' width='22' height='4'/><rect x='5' y='22' width='22' height='4'/></g></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --ink:#23201B;
+  --ink-2:#3A342B;
+  --muted:#6B6459;
+  --paper:#FFFDF9;
+  --pine:#EDE3CE;
+  --pine-2:#E0D2B4;
+  --line:#D6C7A6;
+  --amber:#E2A012;
+  --amber-dark:#B87F06;
+  --forest:#2C5545;
+  --radius:3px;
+  --wrap:1140px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:17px;
+  line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4{font-family:"Bricolage Grotesque","Public Sans",sans-serif;line-height:1.05;margin:0;font-weight:700;letter-spacing:-.02em}
+h1{font-size:clamp(2.1rem,5.2vw,3.9rem);font-weight:800}
+h2{font-size:clamp(1.65rem,3.4vw,2.5rem)}
+h3{font-size:1.18rem}
+p{margin:0 0 1rem}
+a{color:inherit}
+img{max-width:100%}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 22px}
+section{padding:76px 0;border-top:1px solid var(--line)}
+.lead{font-size:1.1rem;color:var(--ink-2);max-width:62ch}
+.sec-head{max-width:64ch;margin-bottom:38px}
+.sec-head p{color:var(--muted);margin-top:14px}
+
+/* focus / a11y */
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{
+  outline:3px solid var(--amber);outline-offset:2px;border-radius:2px
+}
+.skip{position:absolute;left:-9999px}
+.skip:focus{left:12px;top:12px;background:var(--ink);color:#fff;padding:10px 16px;z-index:99}
+
+/* ---------- NAGŁÓWEK ---------- */
+header{position:sticky;top:0;z-index:50;background:rgba(255,253,249,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:26px;height:70px}
+.logo{display:flex;align-items:center;gap:11px;text-decoration:none;font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:1.06rem;letter-spacing:-.02em;flex-shrink:0}
+.logo svg{flex-shrink:0}
+.logo span{display:block;font-family:"Public Sans",sans-serif;font-weight:400;font-size:.72rem;color:var(--muted);letter-spacing:.04em;margin-top:-3px}
+nav{margin-left:auto;display:flex;gap:24px;align-items:center}
+nav a{text-decoration:none;font-size:.95rem;color:var(--ink-2);font-weight:500}
+nav a:hover{color:var(--amber-dark)}
+.tel-top{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:var(--paper);padding:10px 17px;border-radius:var(--radius);text-decoration:none;font-weight:600;font-size:.95rem}
+.tel-top:hover{background:var(--ink-2)}
+.burger{display:none;margin-left:auto;background:none;border:1px solid var(--line);padding:9px 12px;border-radius:var(--radius);font-size:1rem;cursor:pointer}
+
+/* ---------- HERO ---------- */
+.hero{background:var(--pine);border-top:0;padding:64px 0 72px;position:relative;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:start}
+.hero h1{max-width:15ch}
+.hero .lead{margin-top:20px;font-size:1.16rem;color:var(--ink-2)}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:14px 24px;border-radius:var(--radius);text-decoration:none;font-weight:600;font-size:1rem;border:2px solid transparent;cursor:pointer;font-family:inherit}
+.btn-primary{background:var(--amber);color:var(--ink);border-color:var(--amber)}
+.btn-primary:hover{background:var(--amber-dark);border-color:var(--amber-dark);color:#fff}
+.btn-ghost{border-color:var(--ink);color:var(--ink);background:transparent}
+.btn-ghost:hover{background:var(--ink);color:var(--paper)}
+.hero-facts{display:flex;flex-wrap:wrap;gap:8px 28px;margin-top:34px;padding-top:24px;border-top:1px solid var(--line)}
+.fact{font-size:.93rem;color:var(--ink-2);display:flex;gap:9px;align-items:baseline}
+.fact b{font-family:"Bricolage Grotesque",sans-serif;font-size:1.25rem;font-weight:700;color:var(--ink)}
+
+/* ---------- KALKULATOR ---------- */
+.calc{background:var(--ink);color:var(--pine);border-radius:var(--radius);padding:28px 26px 26px;box-shadow:0 18px 44px -22px rgba(35,32,27,.65)}
+.calc h2{font-size:1.35rem;color:var(--paper)}
+.calc .hint{font-size:.88rem;color:#B7AC96;margin:8px 0 20px}
+.calc label{display:block;font-size:.85rem;color:#B7AC96;margin-bottom:6px;font-weight:500}
+.field{margin-bottom:16px}
+.calc select,.calc input{
+  width:100%;padding:12px 13px;border-radius:var(--radius);border:1px solid #4A4338;
+  background:#2E2A23;color:var(--paper);font:inherit;font-size:1rem
+}
+.calc .two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.result{margin-top:20px;padding:18px 18px 16px;background:#2E2A23;border-left:4px solid var(--amber);border-radius:2px}
+.result .amount{font-family:"Bricolage Grotesque",sans-serif;font-size:2.15rem;font-weight:800;color:var(--amber);line-height:1.1;letter-spacing:-.02em}
+.result .note{font-size:.84rem;color:#B7AC96;margin-top:8px}
+.calc .btn{width:100%;margin-top:16px}
+
+/* ---------- CO SKUPUJEMY ---------- */
+.types{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.type{background:var(--paper);padding:26px 24px 24px;display:flex;flex-direction:column}
+.type svg{margin-bottom:16px}
+.type h3{margin-bottom:4px}
+.type .dim{font-size:.88rem;color:var(--muted);margin-bottom:12px}
+.type p{font-size:.95rem;color:var(--ink-2);margin-bottom:16px}
+.type .price{margin-top:auto;font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:1.28rem;color:var(--forest)}
+.type .price small{display:block;font-family:"Public Sans",sans-serif;font-weight:400;font-size:.8rem;color:var(--muted);letter-spacing:0}
+
+/* ---------- KROKI ---------- */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;counter-reset:step}
+.step{padding-top:18px;border-top:3px solid var(--ink)}
+.step::before{
+  counter-increment:step;content:"Krok " counter(step);
+  display:block;font-size:.82rem;color:var(--muted);margin-bottom:10px;font-weight:600
+}
+.step h3{margin-bottom:8px}
+.step p{font-size:.95rem;color:var(--ink-2);margin:0}
+
+/* ---------- CENNIK ---------- */
+.pricing{background:var(--pine)}
+.table-wrap{overflow-x:auto;border:1px solid var(--line);background:var(--paper)}
+table{width:100%;border-collapse:collapse;font-size:.97rem;min-width:560px}
+th,td{padding:14px 18px;text-align:left;border-bottom:1px solid var(--line)}
+th{background:var(--ink);color:var(--paper);font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:.92rem}
+tbody tr:last-child td{border-bottom:0}
+td:last-child{font-weight:600;color:var(--forest);white-space:nowrap}
+.table-note{font-size:.87rem;color:var(--muted);margin-top:14px;max-width:70ch}
+.factors{display:grid;grid-template-columns:repeat(2,1fr);gap:14px 34px;margin-top:40px}
+.factor{display:flex;gap:13px;align-items:flex-start;font-size:.97rem;color:var(--ink-2)}
+.factor svg{flex-shrink:0;margin-top:5px}
+
+/* ---------- DLA FIRM ---------- */
+.biz-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:start}
+.doc-list{list-style:none;padding:0;margin:0}
+.doc-list li{padding:16px 0;border-bottom:1px solid var(--line);display:flex;gap:15px;align-items:flex-start}
+.doc-list li:first-child{padding-top:0}
+.doc-list b{display:block;font-family:"Bricolage Grotesque",sans-serif;font-size:1.02rem}
+.doc-list span{font-size:.94rem;color:var(--ink-2)}
+.doc-list .tag{
+  flex-shrink:0;font-size:.72rem;font-weight:600;background:var(--forest);color:#fff;
+  padding:4px 9px;border-radius:2px;margin-top:3px
+}
+.aside-box{background:var(--pine);border:1px solid var(--line);padding:26px 24px}
+.aside-box h3{margin-bottom:12px}
+.aside-box p{font-size:.95rem;color:var(--ink-2)}
+.aside-box p:last-child{margin-bottom:0}
+
+/* ---------- FAQ ---------- */
+details{border-bottom:1px solid var(--line)}
+details summary{
+  padding:19px 40px 19px 0;cursor:pointer;list-style:none;position:relative;
+  font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:1.06rem
+}
+details summary::-webkit-details-marker{display:none}
+details summary::after{
+  content:"+";position:absolute;right:6px;top:50%;transform:translateY(-50%);
+  font-size:1.5rem;color:var(--amber-dark);font-weight:400;line-height:1
+}
+details[open] summary::after{content:"–"}
+details .answer{padding:0 0 20px;max-width:74ch;color:var(--ink-2);font-size:.99rem}
+details .answer p:last-child{margin-bottom:0}
+
+/* ---------- KONTAKT ---------- */
+.contact{background:var(--ink);color:var(--pine);border-top:0}
+.contact h2{color:var(--paper)}
+.contact .sec-head p{color:#B7AC96}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.form label{display:block;font-size:.87rem;color:#B7AC96;margin-bottom:6px;font-weight:500}
+.form input,.form select,.form textarea{
+  width:100%;padding:12px 13px;border:1px solid #4A4338;background:#2E2A23;color:var(--paper);
+  font:inherit;font-size:1rem;border-radius:var(--radius);margin-bottom:15px
+}
+.form textarea{min-height:104px;resize:vertical}
+.form .row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.consent{display:flex;gap:11px;align-items:flex-start;font-size:.83rem;color:#B7AC96;margin-bottom:18px}
+.consent input{width:18px;height:18px;margin:3px 0 0;flex-shrink:0}
+.contact-info dl{margin:0}
+.contact-info dt{font-size:.83rem;color:#B7AC96;margin-bottom:4px}
+.contact-info dd{margin:0 0 22px;font-size:1.05rem;color:var(--paper)}
+.contact-info dd a{text-decoration:none}
+.contact-info dd a:hover{color:var(--amber)}
+.contact-info .big{font-family:"Bricolage Grotesque",sans-serif;font-size:1.75rem;font-weight:800;letter-spacing:-.02em}
+.hours{font-size:.97rem;line-height:1.9}
+.map{margin-top:22px;border:1px solid #4A4338;border-radius:var(--radius);overflow:hidden;background:#2E2A23}
+.map iframe{display:block;width:100%;height:230px;border:0;filter:grayscale(.3)}
+
+/* ---------- STOPKA ---------- */
+footer{background:#1A1814;color:#948B7B;font-size:.88rem;padding:44px 0 110px}
+.foot-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:36px}
+footer h4{color:var(--pine);font-size:.95rem;margin-bottom:12px}
+footer a{color:#948B7B;text-decoration:none}
+footer a:hover{color:var(--amber)}
+footer ul{list-style:none;padding:0;margin:0;line-height:2}
+.copy{margin-top:34px;padding-top:20px;border-top:1px solid #322D26;display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between}
+
+/* ---------- PASEK MOBILNY ---------- */
+.mobile-bar{
+  display:none;position:fixed;bottom:0;left:0;right:0;z-index:60;
+  background:var(--ink);border-top:1px solid #4A4338;padding:10px 12px;gap:10px
+}
+.mobile-bar a{flex:1;text-align:center;padding:13px 8px;font-size:.95rem}
+
+@media(max-width:900px){
+  .hero-grid,.biz-grid,.contact-grid{grid-template-columns:1fr;gap:38px}
+  .types{grid-template-columns:1fr 1fr}
+  .steps{grid-template-columns:1fr 1fr;gap:24px}
+  .foot-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:640px){
+  body{font-size:16px}
+  section{padding:56px 0}
+  nav{display:none;position:absolute;top:70px;left:0;right:0;background:var(--paper);
+      border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:0;padding:8px 22px 18px}
+  nav.open{display:flex}
+  nav a{padding:12px 0;border-bottom:1px solid var(--line)}
+  nav .tel-top{margin-top:12px;justify-content:center}
+  .burger{display:block}
+  .types,.steps,.factors,.foot-grid{grid-template-columns:1fr}
+  .calc .two,.form .row{grid-template-columns:1fr}
+  .mobile-bar{display:flex}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none!important;animation:none!important}
+}
+@media print{header,.mobile-bar,.calc,.form{display:none}}
+</style>
+</head>
+<body>
+
+<a class="skip" href="#tresc">Przejdź do treści</a>
+
+<header>
+  <div class="wrap bar">
+    <a class="logo" href="#top">
+      <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true">
+        <rect width="34" height="34" fill="#23201B"/>
+        <g fill="#E2A012"><rect x="5" y="8" width="24" height="4"/><rect x="5" y="16" width="24" height="4"/><rect x="5" y="24" width="24" height="4"/></g>
+      </svg>
+      <!-- EDYTUJ: nazwa firmy -->
+      <div>TWOJA FIRMA<span>skup palet · TWOJE MIASTO</span></div>
+    </a>
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav">
+      <a href="#skupujemy">Co skupujemy</a>
+      <a href="#jak">Jak to działa</a>
+      <a href="#cennik">Cennik</a>
+      <a href="#firmy">Dla firm</a>
+      <a href="#faq">Pytania</a>
+      <!-- EDYTUJ: numer telefonu (w href bez spacji) -->
+      <a class="tel-top" href="tel:+48000000000">
+        <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M3.6 1.5 1.9 3.2c-.6.6-.5 1.6.2 2.9.9 1.8 2 3.1 3.4 4.4 1.3 1.3 2.6 2.4 4.4 3.4 1.3.7 2.3.8 2.9.2l1.7-1.7c.3-.3.3-.7 0-1L12.4 9c-.3-.3-.7-.3-1 0l-1 1c-1.2-.6-2.3-1.7-3.4-3.4l1-1c.3-.3.3-.7 0-1L5.9 1.5c-.3-.3-.7-.3-1 0Z"/></svg>
+        000 000 000
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main id="tresc">
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>Odbieramy palety z Twojego magazynu i płacimy przy załadunku.</h1>
+      <p class="lead">EPAL, EURO, przemysłowe, CP, półpalety i egzemplarze do naprawy. Podjeżdżamy własnym samochodem od 50 sztuk, wystawiamy fakturę lub umowę kupna, a firmom potwierdzamy odbiór kartą przekazania odpadu w BDO.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#kontakt">Wyślij zdjęcia i odbierz wycenę</a>
+        <a class="btn btn-ghost" href="tel:+48000000000">Zadzwoń: 000 000 000</a>
+      </div>
+      <div class="hero-facts">
+        <div class="fact"><b>24 h</b> typowy czas odbioru</div>
+        <div class="fact"><b>100 km</b> zasięg bez opłat za transport</div>
+        <div class="fact"><b>od 50 szt.</b> minimum przy odbiorze</div>
+      </div>
+    </div>
+
+    <!-- KALKULATOR -->
+    <div class="calc" id="wycena">
+      <h2>Ile dostanę za swoje palety?</h2>
+      <p class="hint">Policz orientacyjną kwotę. Ostateczną cenę potwierdzamy po obejrzeniu zdjęć lub oględzinach na miejscu.</p>
+
+      <div class="field">
+        <label for="typ">Rodzaj palety</label>
+        <select id="typ">
+          <option value="22">EPAL / EURO 1200×800 – jasna, klasa I</option>
+          <option value="13">EPAL / EURO 1200×800 – ciemna, klasa II</option>
+          <option value="7">EURO uszkodzona, do naprawy</option>
+          <option value="14">Przemysłowa 1200×1000</option>
+          <option value="9">Chemiczna CP1–CP9</option>
+          <option value="7.5">Półpaleta 800×600</option>
+          <option value="3">Jednorazowa / lekka</option>
+        </select>
+      </div>
+
+      <div class="two">
+        <div class="field">
+          <label for="ilosc">Liczba sztuk</label>
+          <input type="number" id="ilosc" value="100" min="1" max="20000" inputmode="numeric">
+        </div>
+        <div class="field">
+          <label for="stan">Stan</label>
+          <select id="stan">
+            <option value="1">Suche, czyste, bez pęknięć</option>
+            <option value="0.85">Normalne ślady użycia</option>
+            <option value="0.65">Mokre, brudne, mieszana partia</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="result" aria-live="polite">
+        <div class="amount" id="kwota">1 870 – 2 200 zł</div>
+        <div class="note" id="uwaga">Wycena orientacyjna, brutto za całą partię, przy odbiorze u Ciebie.</div>
+      </div>
+
+      <a class="btn btn-primary" href="#kontakt">Potwierdź wycenę</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CO SKUPUJEMY ================= -->
+<section id="skupujemy">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Co skupujemy</h2>
+      <p>Przyjmujemy całe partie i pojedyncze paczki. Palet nie trzeba sortować ani czyścić — segregację robimy sami przy załadunku, a Ty widzisz przeliczenie na miejscu.</p>
+    </div>
+
+    <div class="types">
+      <div class="type">
+        <svg width="76" height="50" viewBox="0 0 76 50" aria-hidden="true">
+          <g fill="none" stroke="#23201B" stroke-width="1.6">
+            <rect x="2" y="6" width="72" height="5"/><rect x="2" y="16" width="72" height="5"/><rect x="2" y="26" width="72" height="5"/>
+            <rect x="4" y="36" width="14" height="9"/><rect x="31" y="36" width="14" height="9"/><rect x="58" y="36" width="14" height="9"/>
+          </g>
+        </svg>
+        <h3>EPAL / EURO 1200×800</h3>
+        <div class="dim">Wysokość 144 mm · 11 desek · 78 gwoździ</div>
+        <p>Najczęściej wymieniana paleta w Europie. Najwięcej płacimy za egzemplarze z czytelnym wypalonym znakiem EPAL lub EUR na wsporniku.</p>
+        <div class="price">10–25 zł/szt.<small>zależnie od klasy i wilgotności</small></div>
+      </div>
+
+      <div class="type">
+        <svg width="76" height="50" viewBox="0 0 76 50" aria-hidden="true">
+          <g fill="none" stroke="#23201B" stroke-width="1.6">
+            <rect x="2" y="5" width="72" height="6"/><rect x="2" y="16" width="72" height="6"/><rect x="2" y="27" width="72" height="6"/>
+            <rect x="4" y="38" width="18" height="8"/><rect x="29" y="38" width="18" height="8"/><rect x="54" y="38" width="18" height="8"/>
+          </g>
+        </svg>
+        <h3>Przemysłowa 1200×1000</h3>
+        <div class="dim">Także 1100×1100 i 1200×1200</div>
+        <p>Cięższa konstrukcja spod towarów sypkich i maszyn. Kupujemy również nietypowe wymiary — wtedy wyceniamy po zdjęciu i pomiarze.</p>
+        <div class="price">6–18 zł/szt.<small>wymiar nietypowy – wycena indywidualna</small></div>
+      </div>
+
+      <div class="type">
+        <svg width="76" height="50" viewBox="0 0 76 50" aria-hidden="true">
+          <g fill="none" stroke="#23201B" stroke-width="1.6">
+            <rect x="8" y="6" width="60" height="5"/><rect x="8" y="16" width="60" height="5"/><rect x="8" y="26" width="60" height="5"/>
+            <rect x="10" y="36" width="13" height="9"/><rect x="32" y="36" width="13" height="9"/><rect x="54" y="36" width="13" height="9"/>
+          </g>
+          <circle cx="65" cy="43" r="7" fill="none" stroke="#2C5545" stroke-width="1.6"/>
+          <text x="65" y="46" font-size="7" text-anchor="middle" fill="#2C5545" font-family="sans-serif">CP</text>
+        </svg>
+        <h3>Chemiczne CP1–CP9</h3>
+        <div class="dim">1200×1000, 1140×1140, 1300×1100</div>
+        <p>Palety z branży chemicznej i tworzyw. Przyjmujemy wyłącznie czyste, bez wycieków i zaplamień substancjami niebezpiecznymi.</p>
+        <div class="price">5–12 zł/szt.<small>tylko bez zanieczyszczeń chemicznych</small></div>
+      </div>
+
+      <div class="type">
+        <svg width="76" height="50" viewBox="0 0 76 50" aria-hidden="true">
+          <g fill="none" stroke="#23201B" stroke-width="1.6">
+            <rect x="16" y="8" width="44" height="5"/><rect x="16" y="18" width="44" height="5"/><rect x="16" y="28" width="44" height="5"/>
+            <rect x="18" y="37" width="12" height="8"/><rect x="46" y="37" width="12" height="8"/>
+          </g>
+        </svg>
+        <h3>Półpalety 800×600</h3>
+        <div class="dim">Düsseldorfer, ekspozycyjne, ćwiartki</div>
+        <p>Popularne w handlu i ekspozycji sklepowej. Kupujemy komplety oraz partie mieszane z paletami pełnowymiarowymi.</p>
+        <div class="price">4–10 zł/szt.<small>komplety wyceniamy wyżej</small></div>
+      </div>
+
+      <div class="type">
+        <svg width="76" height="50" viewBox="0 0 76 50" aria-hidden="true">
+          <g fill="none" stroke="#23201B" stroke-width="1.6" stroke-dasharray="5 3">
+            <rect x="2" y="7" width="72" height="4"/><rect x="2" y="17" width="72" height="4"/><rect x="2" y="27" width="72" height="4"/>
+            <rect x="4" y="36" width="14" height="8"/><rect x="31" y="36" width="14" height="8"/><rect x="58" y="36" width="14" height="8"/>
+          </g>
+        </svg>
+        <h3>Jednorazowe i lekkie</h3>
+        <div class="dim">Cienkie deski, palety z importu</div>
+        <p>Konstrukcje pod jeden transport, zwykle nienadające się do naprawy. Bierzemy je na przemiał, dlatego liczy się ilość, nie stan.</p>
+        <div class="price">1–5 zł/szt.<small>przy większych partiach wyceniamy na tony</small></div>
+      </div>
+
+      <div class="type">
+        <svg width="76" height="50" viewBox="0 0 76 50" aria-hidden="true">
+          <g fill="none" stroke="#23201B" stroke-width="1.6">
+            <path d="M2 9h30M40 9h34M2 19h20M28 19h46M2 29h72"/>
+            <rect x="4" y="36" width="14" height="8"/><rect x="31" y="36" width="14" height="8"/><rect x="58" y="36" width="14" height="8"/>
+            <path d="M50 4l6 8-6 8" stroke="#B87F06"/>
+          </g>
+        </svg>
+        <h3>Uszkodzone i drewno odpadowe</h3>
+        <div class="dim">Połamane deski, klocki, skrzynie</div>
+        <p>Pęknięte wsporniki i wybite deski to dla nas surowiec do naprawy albo przemiału. Uprzątamy plac do czysta, także po rozbiórce.</p>
+        <div class="price">wycena za tonę<small>po zdjęciach lub oględzinach</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= JAK TO DZIAŁA ================= -->
+<section id="jak">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Jak przebiega odbiór</h2>
+      <p>Od telefonu do przelewu zwykle mija jeden dzień roboczy. Cały proces prowadzi jedna osoba, więc nie tłumaczysz sprawy od nowa przy każdym kontakcie.</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <h3>Zgłaszasz palety</h3>
+        <p>Dzwonisz albo wysyłasz 2–3 zdjęcia stosu i liczbę sztuk. Zdjęcia wystarczą telefonem — ważne, żeby było widać boki i oznaczenia.</p>
+      </div>
+      <div class="step">
+        <h3>Dostajesz cenę</h3>
+        <p>Odpowiadamy tego samego dnia stawką za sztukę i kwotą za całość. Cena jest wiążąca przez 7 dni, o ile partia zgadza się ze zdjęciami.</p>
+      </div>
+      <div class="step">
+        <h3>Umawiamy przyjazd</h3>
+        <p>Wybierasz termin i podajesz godziny pracy magazynu. Przy większych ilościach podstawiamy naczepę i pomagamy przy załadunku.</p>
+      </div>
+      <div class="step">
+        <h3>Liczymy i płacimy</h3>
+        <p>Przeliczamy partię przy Tobie, podpisujemy dokument zakupu i płacimy gotówką na miejscu albo przelewem tego samego dnia.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CENNIK ================= -->
+<section class="pricing" id="cennik">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Cennik skupu</h2>
+      <p>Stawki obowiązują przy odbiorze u klienta, dla partii od 50 sztuk. Jeśli przywozisz palety do nas na plac, doliczamy 1–2 zł do sztuki.</p>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <caption class="sr-only" style="position:absolute;left:-9999px">Ceny skupu palet według rodzaju i stanu</caption>
+        <thead>
+          <tr><th scope="col">Rodzaj palety</th><th scope="col">Wymiary</th><th scope="col">Stan</th><th scope="col">Cena za sztukę</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>EPAL / EURO jasna, klasa I</td><td>1200×800</td><td>bez napraw, sucha</td><td>20–25 zł</td></tr>
+          <tr><td>EPAL / EURO ciemna, klasa II</td><td>1200×800</td><td>ślady użycia</td><td>12–16 zł</td></tr>
+          <tr><td>EURO do naprawy</td><td>1200×800</td><td>pęknięta deska lub wspornik</td><td>5–10 zł</td></tr>
+          <tr><td>Przemysłowa</td><td>1200×1000</td><td>sprawna</td><td>10–18 zł</td></tr>
+          <tr><td>Przemysłowa nietypowa</td><td>1100×1100, 1200×1200</td><td>sprawna</td><td>6–12 zł</td></tr>
+          <tr><td>Chemiczna CP1–CP9</td><td>różne</td><td>czysta, bez wycieków</td><td>5–12 zł</td></tr>
+          <tr><td>Półpaleta</td><td>800×600</td><td>sprawna</td><td>4–10 zł</td></tr>
+          <tr><td>Jednorazowa / lekka</td><td>1200×800 i inne</td><td>dowolny</td><td>1–5 zł</td></tr>
+          <tr><td>Drewno odpadowe, palety zniszczone</td><td>—</td><td>na przemiał</td><td>wycena za tonę</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="table-note">Ceny podane w złotych, aktualizowane co miesiąc. Ostatnia aktualizacja: <span id="data-cennika">wrzesień 2026</span>. Rynek palet reaguje na sezon i kurs drewna, dlatego przy partiach powyżej 1000 sztuk umawiamy stawkę indywidualnie i utrzymujemy ją przez cały odbiór.</p>
+
+    <div class="factors">
+      <div class="factor">
+        <svg width="17" height="17" viewBox="0 0 16 16" fill="none" stroke="#2C5545" stroke-width="1.8" aria-hidden="true"><path d="M2 8.5 6 12l8-8.5"/></svg>
+        <div><b>Oznaczenie EPAL lub EUR.</b> Wypalony znak na wsporniku podnosi cenę nawet o kilka złotych — to on decyduje, czy paleta wróci do obrotu.</div>
+      </div>
+      <div class="factor">
+        <svg width="17" height="17" viewBox="0 0 16 16" fill="none" stroke="#2C5545" stroke-width="1.8" aria-hidden="true"><path d="M2 8.5 6 12l8-8.5"/></svg>
+        <div><b>Wilgoć.</b> Palety trzymane pod plandeką albo w hali są warte więcej niż te, które przez miesiąc stały na deszczu i zsiniały.</div>
+      </div>
+      <div class="factor">
+        <svg width="17" height="17" viewBox="0 0 16 16" fill="none" stroke="#2C5545" stroke-width="1.8" aria-hidden="true"><path d="M2 8.5 6 12l8-8.5"/></svg>
+        <div><b>Jednorodność partii.</b> Sto takich samych EPAL-i wyceniamy wyżej niż sto sztuk pomieszanych typów, bo nie musimy ich rozdzielać.</div>
+      </div>
+      <div class="factor">
+        <svg width="17" height="17" viewBox="0 0 16 16" fill="none" stroke="#2C5545" stroke-width="1.8" aria-hidden="true"><path d="M2 8.5 6 12l8-8.5"/></svg>
+        <div><b>Dojazd i załadunek.</b> Utwardzony plac, dostęp dla naczepy i wózek widłowy na miejscu skracają odbiór i podnoszą naszą stawkę.</div>
+      </div>
+      <div class="factor">
+        <svg width="17" height="17" viewBox="0 0 16 16" fill="none" stroke="#2C5545" stroke-width="1.8" aria-hidden="true"><path d="M2 8.5 6 12l8-8.5"/></svg>
+        <div><b>Ilość.</b> Powyżej 500 sztuk wchodzimy w górne widełki, bo jeden kurs zapełnia komplet naczepy.</div>
+      </div>
+      <div class="factor">
+        <svg width="17" height="17" viewBox="0 0 16 16" fill="none" stroke="#2C5545" stroke-width="1.8" aria-hidden="true"><path d="M2 8.5 6 12l8-8.5"/></svg>
+        <div><b>Sezon.</b> Od stycznia do marca podaż rośnie i ceny spadają; jesienią, przed szczytem wysyłkowym, płacimy najwięcej.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DLA FIRM ================= -->
+<section id="firmy">
+  <div class="wrap biz-grid">
+    <div>
+      <div class="sec-head">
+        <h2>Dla firm: dokumenty, które dostajesz</h2>
+        <p>Zużyta paleta drewniana to w świetle przepisów odpad opakowaniowy o kodzie 15 01 03. Jeśli oddajesz ją jako odpad, odbiór musi zostać udokumentowany — my zamykamy to od strony formalnej.</p>
+      </div>
+      <ul class="doc-list">
+        <li><span class="tag">KPO</span><div><b>Karta przekazania odpadu w BDO</b><span>Wystawiamy ją w systemie przed transportem i potwierdzamy przyjęcie po rozładunku. Twoja ewidencja się domyka, bez telefonów i przypominania.</span></div></li>
+        <li><span class="tag">FV</span><div><b>Faktura VAT lub umowa kupna-sprzedaży</b><span>Firmy rozliczamy fakturą, osoby prywatne umową kupna. Płatność gotówką przy odbiorze albo przelewem w dniu odbioru.</span></div></li>
+        <li><span class="tag">BDO</span><div><b>Numer rejestrowy i decyzja na zbieranie odpadów</b><span>Przekazujesz odpad podmiotowi, który ma wymagane zezwolenia. Skany udostępniamy na życzenie przed pierwszym odbiorem.</span></div></li>
+        <li><span class="tag">DPR</span><div><b>Dokument potwierdzający recykling</b><span>Dla wprowadzających produkty w opakowaniach — na wniosek wystawiamy DPO/DPR za przekazaną masę drewna.</span></div></li>
+        <li><span class="tag">Stała umowa</span><div><b>Cykliczny odbiór z magazynu</b><span>Ustalamy próg zapełnienia albo stały dzień tygodnia. Cena jest wtedy zamrożona na okres umowy, niezależnie od wahań rynku.</span></div></li>
+      </ul>
+    </div>
+
+    <aside class="aside-box">
+      <h3>Kiedy paleta jest towarem, a kiedy odpadem</h3>
+      <p>Jeśli sprzedajesz sprawne palety, których po prostu nie potrzebujesz, zwykle jest to sprzedaż towaru używanego — wystarczy faktura.</p>
+      <p>Jeśli palety są uszkodzone i przeznaczasz je do naprawy lub przemiału u odbiorcy, kwalifikują się jako odpad 15 01 03. Wtedy odbiorca musi mieć zezwolenie na zbieranie odpadów, a przekazanie trzeba pokazać w KPO.</p>
+      <p>Nie jesteś pewny, w której sytuacji jesteś? Zadzwoń, przejdziemy przez to razem przed odbiorem — to pięć minut rozmowy, a oszczędza kłopotów przy kontroli WIOŚ.</p>
+    </aside>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section id="faq">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Częste pytania</h2>
+    </div>
+
+    <details open>
+      <summary>Ile palet musi być, żebyście przyjechali?</summary>
+      <div class="answer"><p>Od 50 sztuk odbieramy bez opłaty za transport w promieniu 100 km. Mniejsze ilości też kupujemy, ale wtedy albo przywozisz je na nasz plac, albo dołączamy odbiór do kursu w Twojej okolicy — zwykle w ciągu tygodnia.</p></div>
+    </details>
+
+    <details>
+      <summary>Czy trzeba posortować palety przed odbiorem?</summary>
+      <div class="answer"><p>Nie. Sortujemy przy załadunku i liczymy każdy typ osobno, a Ty widzisz przeliczenie. Jeśli chcesz z góry wiedzieć, ile dostaniesz, ustaw palety w równe stosy po 20 — wtedy weryfikacja trwa kilka minut.</p></div>
+    </details>
+
+    <details>
+      <summary>Kiedy dostanę pieniądze?</summary>
+      <div class="answer"><p>Gotówką od razu po przeliczeniu albo przelewem tego samego dnia roboczego. Przy stałej współpracy rozliczamy się zbiorczo raz w miesiącu, jeśli tak jest wygodniej Twojej księgowości.</p></div>
+    </details>
+
+    <details>
+      <summary>Kupujecie palety od osób prywatnych?</summary>
+      <div class="answer"><p>Tak. Podpisujemy wtedy umowę kupna-sprzedaży rzeczy używanej i płacimy gotówką. Wystarczy dowód osobisty do spisania danych do umowy.</p></div>
+    </details>
+
+    <details>
+      <summary>Co z paletami zalanymi olejem albo chemią?</summary>
+      <div class="answer"><p>Takich nie przyjmujemy — zanieczyszczone opakowania drewniane to odpad niebezpieczny o innym kodzie i trzeba je przekazać firmie z odpowiednim zezwoleniem. Podpowiemy, gdzie je oddać w okolicy.</p></div>
+    </details>
+
+    <details>
+      <summary>Skupujecie też palety plastikowe i skrzyniopalety?</summary>
+      <div class="answer"><p>Tak, wyceniamy je indywidualnie po zdjęciach — decyduje rodzaj tworzywa, waga i stan. To samo dotyczy skrzyniopalet drewnianych i metalowych oraz nadstawek.</p></div>
+    </details>
+
+    <details>
+      <summary>Czy sprzedajecie palety, czy tylko skupujecie?</summary>
+      <div class="answer"><p>Sprzedajemy również. Mamy na stanie EPAL-e klasy I i II oraz palety przemysłowe po naprawie, z dostawą na miejsce. Zapytaj o aktualną dostępność.</p></div>
+    </details>
+  </div>
+</section>
+
+<!-- ================= KONTAKT ================= -->
+<section class="contact" id="kontakt">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Wyceń swoje palety</h2>
+      <p>Napisz, ile masz palet i jakiego typu, albo po prostu zadzwoń. Odpowiadamy w godzinach pracy, zwykle w kilkadziesiąt minut.</p>
+    </div>
+
+    <div class="contact-grid">
+      <!-- FORMULARZ: patrz instrukcja pod kodem — trzeba podpiąć odbiór wiadomości -->
+      <form class="form" id="form" action="https://formspree.io/f/TWOJ_IDENTYFIKATOR" method="POST">
+        <div class="row">
+          <div>
+            <label for="imie">Imię i nazwisko lub firma</label>
+            <input id="imie" name="imie" required>
+          </div>
+          <div>
+            <label for="tel">Telefon</label>
+            <input id="tel" name="telefon" type="tel" required>
+          </div>
+        </div>
+        <label for="email">E-mail</label>
+        <input id="email" name="email" type="email">
+
+        <div class="row">
+          <div>
+            <label for="rodzaj">Rodzaj palet</label>
+            <select id="rodzaj" name="rodzaj">
+              <option>EPAL / EURO</option>
+              <option>Przemysłowe</option>
+              <option>CP / chemiczne</option>
+              <option>Półpalety</option>
+              <option>Jednorazowe</option>
+              <option>Mieszane lub nie wiem</option>
+            </select>
+          </div>
+          <div>
+            <label for="szt">Liczba sztuk</label>
+            <input id="szt" name="ilosc" type="number" min="1" inputmode="numeric">
+          </div>
+        </div>
+
+        <label for="miejsce">Miejscowość odbioru</label>
+        <input id="miejsce" name="miejscowosc" required>
+
+        <label for="wiad">Dodatkowe informacje</label>
+        <textarea id="wiad" name="wiadomosc" placeholder="Np. stan palet, godziny pracy magazynu, czy jest wózek widłowy."></textarea>
+
+        <div class="consent">
+          <input type="checkbox" id="zgoda" name="zgoda" required>
+          <label for="zgoda" style="margin:0">Zgadzam się na kontakt w sprawie wyceny i przetwarzanie moich danych w tym celu. Dane administruje TWOJA FIRMA, szczegóły w <a href="#polityka" style="color:var(--amber)">polityce prywatności</a>.</label>
+        </div>
+
+        <button class="btn btn-primary" type="submit">Wyślij zgłoszenie</button>
+        <p id="status" style="font-size:.88rem;color:#B7AC96;margin-top:12px"></p>
+      </form>
+
+      <div class="contact-info">
+        <dl>
+          <dt>Telefon — najszybszy kontakt</dt>
+          <dd class="big"><a href="tel:+48000000000">000 000 000</a></dd>
+
+          <dt>E-mail</dt>
+          <dd><a href="mailto:kontakt@twojadomena.pl">kontakt@twojadomena.pl</a></dd>
+
+          <dt>WhatsApp — wyślij zdjęcia palet</dt>
+          <dd><a href="https://wa.me/48000000000">Napisz na WhatsApp</a></dd>
+
+          <dt>Plac i biuro</dt>
+          <dd>ul. Przykładowa 1<br>00-000 TWOJE MIASTO</dd>
+
+          <dt>Godziny pracy</dt>
+          <dd class="hours">pon.–pt. 7:00–17:00<br>sob. 8:00–13:00<br>niedziela — nieczynne</dd>
+
+          <dt>Obszar odbioru</dt>
+          <dd>TWOJE MIASTO i okolice do 100 km. Większe partie odbieramy z całego kraju.</dd>
+        </dl>
+
+        <div class="map">
+          <!-- EDYTUJ: wklej kod mapy z Google Maps → Udostępnij → Umieść mapę -->
+          <iframe title="Mapa dojazdu" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=21.0%2C51.9%2C22.6%2C52.5&layer=mapnik"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>TWOJA FIRMA — skup palet</h4>
+        <p>Skupujemy, naprawiamy i sprzedajemy palety drewniane. Odbieramy odpady opakowaniowe z drewna o kodzie 15 01 03 na podstawie zezwolenia na zbieranie odpadów.</p>
+        <p>NIP 000-000-00-00 · REGON 000000000<br>Numer rejestrowy BDO: 000000000000</p>
+      </div>
+      <div>
+        <h4>Strona</h4>
+        <ul>
+          <li><a href="#skupujemy">Co skupujemy</a></li>
+          <li><a href="#cennik">Cennik</a></li>
+          <li><a href="#jak">Jak to działa</a></li>
+          <li><a href="#firmy">Dla firm</a></li>
+          <li><a href="#faq">Pytania</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <ul>
+          <li><a href="tel:+48000000000">000 000 000</a></li>
+          <li><a href="mailto:kontakt@twojadomena.pl">kontakt@twojadomena.pl</a></li>
+          <li>ul. Przykładowa 1, TWOJE MIASTO</li>
+          <li>pon.–pt. 7:00–17:00</li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy">
+      <span>© <span id="rok">2026</span> TWOJA FIRMA. Wszystkie ceny mają charakter orientacyjny i nie stanowią oferty w rozumieniu Kodeksu cywilnego.</span>
+      <span id="polityka"><a href="polityka-prywatnosci.html">Polityka prywatności</a> · <a href="#kontakt">RODO</a></span>
+    </div>
+  </div>
+</footer>
+
+<div class="mobile-bar">
+  <a class="btn btn-primary" href="tel:+48000000000">Zadzwoń</a>
+  <a class="btn btn-ghost" style="color:var(--pine);border-color:var(--pine)" href="#kontakt">Wyceń palety</a>
+</div>
+
+<!-- Dane strukturalne dla Google -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"LocalBusiness",
+  "name":"TWOJA FIRMA — skup palet",
+  "description":"Skup palet drewnianych EPAL, EURO, przemysłowych i CP. Odbiór własnym transportem, płatność przy załadunku, dokumentacja BDO.",
+  "url":"https://www.twojadomena.pl/",
+  "telephone":"+48000000000",
+  "email":"kontakt@twojadomena.pl",
+  "priceRange":"1-25 PLN",
+  "address":{"@type":"PostalAddress","streetAddress":"ul. Przykładowa 1","postalCode":"00-000","addressLocality":"TWOJE MIASTO","addressCountry":"PL"},
+  "openingHoursSpecification":[
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"07:00","closes":"17:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"08:00","closes":"13:00"}
+  ],
+  "areaServed":"Polska"
+}
+</script>
+
+<script>
+// menu mobilne
+var burger=document.getElementById('burger'),nav=document.getElementById('nav');
+burger.addEventListener('click',function(){
+  var open=nav.classList.toggle('open');
+  burger.setAttribute('aria-expanded',open?'true':'false');
+});
+nav.addEventListener('click',function(e){if(e.target.tagName==='A')nav.classList.remove('open');});
+
+// kalkulator wyceny
+var typ=document.getElementById('typ'),ilosc=document.getElementById('ilosc'),
+    stan=document.getElementById('stan'),kwota=document.getElementById('kwota'),uwaga=document.getElementById('uwaga');
+
+function zl(n){return n.toLocaleString('pl-PL',{maximumFractionDigits:0});}
+
+function licz(){
+  var baza=parseFloat(typ.value),
+      szt=Math.max(0,parseInt(ilosc.value||0,10)),
+      mnoznik=parseFloat(stan.value),
+      bonus=szt>=500?1.08:(szt>=200?1.04:1);           // premia za dużą partię
+  var srodek=baza*mnoznik*bonus,
+      dol=Math.round(srodek*0.85*szt),
+      gora=Math.round(srodek*1.05*szt);
+  kwota.textContent = szt? zl(dol)+' – '+zl(gora)+' zł' : '—';
+  if(!szt){uwaga.textContent='Podaj liczbę palet.';return;}
+  uwaga.textContent = szt<50
+    ? 'Poniżej 50 sztuk odbiór łączymy z innym kursem albo przywozisz palety na plac.'
+    : (szt>=500
+        ? 'Partia powyżej 500 sztuk — wchodzisz w górne widełki cennika.'
+        : 'Wycena orientacyjna za całą partię, przy odbiorze u Ciebie.');
+}
+[typ,ilosc,stan].forEach(function(el){el.addEventListener('input',licz);el.addEventListener('change',licz);});
+licz();
+
+// rok w stopce
+document.getElementById('rok').textContent=new Date().getFullYear();
+
+// wysyłka formularza bez przeładowania strony (działa po podpięciu Formspree)
+var form=document.getElementById('form'),status=document.getElementById('status');
+form.addEventListener('submit',function(e){
+  if(form.action.indexOf('TWOJ_IDENTYFIKATOR')>-1){
+    e.preventDefault();
+    status.textContent='Formularz nie jest jeszcze podpięty — wpisz swój adres Formspree w atrybucie action.';
+    return;
+  }
+  e.preventDefault();
+  status.textContent='Wysyłamy…';
+  fetch(form.action,{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}})
+    .then(function(r){
+      if(r.ok){form.reset();licz();status.textContent='Zgłoszenie wysłane. Oddzwonimy w godzinach pracy.';}
+      else{status.textContent='Nie udało się wysłać. Zadzwoń pod 000 000 000 albo napisz na kontakt@twojadomena.pl.';}
+    })
+    .catch(function(){status.textContent='Brak połączenia. Zadzwoń pod 000 000 000.';});
+});
+</script>
+</body>
+</html>
